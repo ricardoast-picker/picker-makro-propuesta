@@ -262,128 +262,194 @@
 
 <!-- ═══════════════════ SLIDE 5 · PRECIO ═══════════════════ -->
 <div class="slide">
-  <div class="content" style="display:flex;flex-direction:column;gap:20px;">
+  <div class="content" style="display:flex;flex-direction:column;gap:14px;">
     <div>
       <div class="tag">El precio</div>
-      <h2>Tarifas carriers + fee Picker.<br/>Transparente por kilómetro.</h2>
+      <h2>Tarifas carriers + fee Picker · COP · IVA incluido</h2>
     </div>
-    <div class="grid2" style="gap:20px;align-items:start;">
-      <div style="display:flex;flex-direction:column;gap:14px;">
-        <div class="card" style="padding:0;overflow:hidden;">
-          <table class="tbl">
-            <thead>
-              <tr>
-                <th>Distancia</th>
-                <th>RAPPI</th>
-                <th>CABIFY</th>
-                <th style="color:var(--celeste);background:hsl(193 100% 45% / .05);">MU ★</th>
-                <th>PIBOX</th>
-                <th style="color:var(--celeste);background:hsl(193 100% 45% / .05);">ARMI ★</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr><td>0 – 3 km</td><td>$8,199</td><td>$10,890</td><td style="background:hsl(193 100% 45%/.06);color:var(--celeste);font-weight:800;">$6,200</td><td>$9,600</td><td style="background:hsl(193 100% 45%/.06);color:var(--celeste);font-weight:800;">$12,200</td></tr>
-              <tr><td>4 km</td><td>$10,445</td><td>$13,134</td><td style="background:hsl(193 100% 45%/.06);color:var(--celeste);font-weight:800;">$7,770</td><td>$11,498</td><td style="background:hsl(193 100% 45%/.06);color:var(--celeste);font-weight:800;">$15,299</td></tr>
-              <tr><td>5 km</td><td>$12,282</td><td>$14,834</td><td style="background:hsl(193 100% 45%/.06);color:var(--celeste);font-weight:800;">$9,030</td><td>$12,915</td><td style="background:hsl(193 100% 45%/.06);color:var(--celeste);font-weight:800;">$17,787</td></tr>
-              <tr><td>6 km</td><td>$14,118</td><td>$16,534</td><td style="background:hsl(193 100% 45%/.06);color:var(--celeste);font-weight:800;">$10,290</td><td>$14,333</td><td style="background:hsl(193 100% 45%/.06);color:var(--celeste);font-weight:800;">$20,276</td></tr>
-              <tr><td>7 km</td><td>$15,955</td><td>$18,234</td><td style="background:hsl(193 100% 45%/.06);color:var(--celeste);font-weight:800;">$11,550</td><td>$15,750</td><td style="background:hsl(193 100% 45%/.06);color:var(--celeste);font-weight:800;">$22,764</td></tr>
-              <tr><td style="color:var(--muted);">+ km extra</td><td style="color:var(--muted);">$1,836</td><td style="color:var(--muted);">$1,700</td><td style="background:hsl(193 100% 45%/.06);color:var(--celeste);font-weight:800;">$1,260</td><td style="color:var(--muted);">$1,418</td><td style="background:hsl(193 100% 45%/.06);color:var(--celeste);font-weight:800;">$2,489</td></tr>
-            </tbody>
-          </table>
+    <!-- Tabla full-width -->
+    <div class="card" style="padding:0;overflow:hidden;">
+      <table class="tbl" style="font-size:10.5px;">
+        <thead>
+          <tr>
+            <th style="padding:7px 10px;text-align:left;">Distancia</th>
+            <th style="padding:7px 8px;text-align:right;">RAPPI</th>
+            <th style="padding:7px 8px;text-align:right;">CABIFY</th>
+            <th style="padding:7px 8px;text-align:right;">MU ◆</th>
+            <th style="padding:7px 8px;text-align:right;color:var(--celeste);background:hsl(193 100% 45%/.06);">PIBOX ★</th>
+            <th style="padding:7px 8px;text-align:right;color:var(--amber);background:var(--amber-bg);">ARMI ◆</th>
+            <th style="padding:7px 8px;text-align:right;color:var(--amber);background:var(--amber-bg);">ARMI ◆</th>
+            <th style="padding:7px 8px;text-align:right;color:var(--amber);background:var(--amber-bg);">ARMI ◆</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding:7px 10px;font-weight:700;">0 – 3 km</td>
+            <td style="padding:7px 8px;text-align:right;">$8,199</td><td style="padding:7px 8px;text-align:right;">$8,200</td><td style="padding:7px 8px;text-align:right;">$10,890</td>
+            <td style="padding:7px 8px;text-align:right;background:hsl(193 100% 45%/.06);color:var(--celeste);font-weight:800;">$6,200</td>
+            <td style="padding:7px 8px;text-align:right;background:var(--amber-bg);">$9,600</td><td style="padding:7px 8px;text-align:right;background:var(--amber-bg);">$12,200</td><td style="padding:7px 8px;text-align:right;background:var(--amber-bg);">$11,850</td>
+          </tr>
+          <tr>
+            <td style="padding:7px 10px;font-weight:700;">4 km</td>
+            <td style="padding:7px 8px;text-align:right;">$10,445</td><td style="padding:7px 8px;text-align:right;">$9,975</td><td style="padding:7px 8px;text-align:right;">$13,134</td>
+            <td style="padding:7px 8px;text-align:right;background:hsl(193 100% 45%/.06);color:var(--celeste);font-weight:800;">$7,770</td>
+            <td style="padding:7px 8px;text-align:right;background:var(--amber-bg);">$11,498</td><td style="padding:7px 8px;text-align:right;background:var(--amber-bg);">$15,299</td><td style="padding:7px 8px;text-align:right;background:var(--amber-bg);">$15,225</td>
+          </tr>
+          <tr>
+            <td style="padding:7px 10px;font-weight:700;">5 km</td>
+            <td style="padding:7px 8px;text-align:right;">$12,282</td><td style="padding:7px 8px;text-align:right;">$11,340</td><td style="padding:7px 8px;text-align:right;">$14,834</td>
+            <td style="padding:7px 8px;text-align:right;background:hsl(193 100% 45%/.06);color:var(--celeste);font-weight:800;">$9,030</td>
+            <td style="padding:7px 8px;text-align:right;background:var(--amber-bg);">$12,915</td><td style="padding:7px 8px;text-align:right;background:var(--amber-bg);">$17,787</td><td style="padding:7px 8px;text-align:right;background:var(--amber-bg);">$18,008</td>
+          </tr>
+          <tr>
+            <td style="padding:7px 10px;font-weight:700;">6 km</td>
+            <td style="padding:7px 8px;text-align:right;">$14,118</td><td style="padding:7px 8px;text-align:right;">$12,705</td><td style="padding:7px 8px;text-align:right;">$16,534</td>
+            <td style="padding:7px 8px;text-align:right;background:hsl(193 100% 45%/.06);color:var(--celeste);font-weight:800;">$10,290</td>
+            <td style="padding:7px 8px;text-align:right;background:var(--amber-bg);">$14,333</td><td style="padding:7px 8px;text-align:right;background:var(--amber-bg);">$20,276</td><td style="padding:7px 8px;text-align:right;background:var(--amber-bg);">$20,790</td>
+          </tr>
+          <tr>
+            <td style="padding:7px 10px;font-weight:700;">7 km</td>
+            <td style="padding:7px 8px;text-align:right;">$15,955</td><td style="padding:7px 8px;text-align:right;">$14,070</td><td style="padding:7px 8px;text-align:right;">$18,234</td>
+            <td style="padding:7px 8px;text-align:right;background:hsl(193 100% 45%/.06);color:var(--celeste);font-weight:800;">$11,550</td>
+            <td style="padding:7px 8px;text-align:right;background:var(--amber-bg);">$15,750</td><td style="padding:7px 8px;text-align:right;background:var(--amber-bg);">$22,764</td><td style="padding:7px 8px;text-align:right;background:var(--amber-bg);">$23,573</td>
+          </tr>
+          <tr style="border-top:2px solid var(--border);">
+            <td style="padding:7px 10px;font-weight:700;color:var(--muted);">+ km extra</td>
+            <td style="padding:7px 8px;text-align:right;color:var(--muted);">$1,836</td><td style="padding:7px 8px;text-align:right;color:var(--muted);">$1,365</td><td style="padding:7px 8px;text-align:right;color:var(--muted);">$1,700</td>
+            <td style="padding:7px 8px;text-align:right;background:hsl(193 100% 45%/.06);color:var(--celeste);font-weight:800;">$1,260</td>
+            <td style="padding:7px 8px;text-align:right;background:var(--amber-bg);color:var(--muted);">$1,418</td><td style="padding:7px 8px;text-align:right;background:var(--amber-bg);color:var(--muted);">$2,489</td><td style="padding:7px 8px;text-align:right;background:var(--amber-bg);color:var(--muted);">$2,783</td>
+          </tr>
+          <!-- ARMI cities footer -->
+          <tr style="background:hsl(43 100% 67%/.08);">
+            <td colspan="4" style="padding:6px 10px;border:none;font-size:9px;color:var(--muted);">★ PIBOX — tarifa más baja · ◆ MU y ARMI — cobro en efectivo en sitio disponible</td>
+            <td style="padding:6px 8px;border:none;background:hsl(193 100% 45%/.04);font-size:9px;color:var(--muted);text-align:center;"></td>
+            <td style="padding:6px 8px;border:none;background:hsl(43 100% 67%/.08);font-size:9px;color:var(--sub);text-align:center;font-weight:600;">Bogotá · Cali · Pereira<br/>Resto de ciudades</td>
+            <td style="padding:6px 8px;border:none;background:hsl(43 100% 67%/.08);font-size:9px;color:var(--sub);text-align:center;font-weight:600;">Medellín · Envigado · Itagui<br/>Sabaneta · Soacha · Chía<br/>Cajicá · Cartagena</td>
+            <td style="padding:6px 8px;border:none;background:hsl(43 100% 67%/.08);font-size:9px;color:var(--sub);text-align:center;font-weight:600;">Rionegro · Armenia<br/>Cota · La Calera<br/>Manizales</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- Fee + ejemplos -->
+    <div class="grid2" style="gap:14px;">
+      <div class="card-amber" style="padding:14px 18px;">
+        <p style="font-size:11px;font-weight:700;color:var(--amber);text-transform:uppercase;letter-spacing:.08em;margin-bottom:10px;">Fee de orquestación Picker</p>
+        <div style="display:flex;gap:18px;align-items:center;margin-bottom:10px;">
+          <div><div style="font-size:22px;font-weight:900;color:var(--text);">$1,400 COP</div><div style="font-size:11px;color:var(--sub);">+ IVA por envío orquestado</div></div>
+          <div style="width:1px;height:36px;background:hsl(43 100% 45%/.3);"></div>
+          <div><div style="font-size:22px;font-weight:900;color:var(--text);">3.5%</div><div style="font-size:11px;color:var(--sub);">sobre efectivo recaudado en sitio</div></div>
         </div>
-        <div style="padding:10px 14px;background:var(--celeste-dim);border:1px solid var(--celeste-mid);border-radius:8px;font-size:12px;color:var(--celeste);font-weight:700;">★ MU y ARMI soportan cobro en sitio (pago en tienda antes de la salida del rider)</div>
+        <div style="border-top:1px solid hsl(43 100% 45%/.2);padding-top:8px;display:flex;gap:14px;">
+          <div style="text-align:center;flex:1;"><div style="font-size:12px;font-weight:800;color:var(--green-text);">Sin pisos</div><div style="font-size:10px;color:var(--sub);">de volumen mínimo</div></div>
+          <div style="width:1px;background:hsl(43 100% 45%/.2);"></div>
+          <div style="text-align:center;flex:1;"><div style="font-size:12px;font-weight:800;color:var(--green-text);">Sin tarifas dinámicas</div><div style="font-size:10px;color:var(--sub);">ni recargos por hora pico</div></div>
+          <div style="width:1px;background:hsl(43 100% 45%/.2);"></div>
+          <div style="text-align:center;flex:1;"><div style="font-size:12px;font-weight:800;color:var(--green-text);">7–30 días</div><div style="font-size:10px;color:var(--sub);">plazo de pago negociable</div></div>
+        </div>
       </div>
-      <div style="display:flex;flex-direction:column;gap:14px;">
-        <div class="card" style="padding:0;overflow:hidden;">
-          <div style="padding:14px 18px;border-bottom:1px solid var(--border);font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;">Fee Picker + Costo total estimado · MU a distancia promedio Makro</div>
-          <table class="tbl">
-            <thead><tr><th>Concepto</th><th>10 km</th><th>12 km</th></tr></thead>
-            <tbody>
-              <tr><td>Carrier MU</td><td>$15,330</td><td>$17,850</td></tr>
-              <tr><td>Fee Picker + IVA</td><td>$1,666</td><td>$1,666</td></tr>
-              <tr class="total"><td>Total por envío</td><td>$16,996</td><td>$19,516</td></tr>
-              <tr><td style="color:var(--muted);">+ Efectivo (si aplica)</td><td style="color:var(--muted);">+3.5% s/ cobrado</td><td style="color:var(--muted);">+3.5% s/ cobrado</td></tr>
-            </tbody>
-          </table>
-        </div>
-        <div class="card-amber" style="padding:14px 18px;">
-          <p style="font-size:11px;font-weight:700;color:var(--amber);text-transform:uppercase;letter-spacing:.08em;margin-bottom:10px;">Fee de orquestación Picker</p>
-          <div style="display:flex;gap:18px;align-items:center;margin-bottom:10px;">
-            <div><div style="font-size:24px;font-weight:900;color:var(--text);">$1,400</div><div style="font-size:11px;color:var(--sub);">COP + IVA por envío</div></div>
-            <div style="width:1px;height:36px;background:var(--border);"></div>
-            <div><div style="font-size:24px;font-weight:900;color:var(--text);">3.5%</div><div style="font-size:11px;color:var(--sub);">sobre efectivo recaudado</div></div>
-          </div>
-          <div style="border-top:1px solid hsl(43 100% 45%/.2);padding-top:10px;display:flex;gap:16px;">
-            <div style="text-align:center;flex:1;"><div style="font-size:13px;font-weight:800;color:var(--green-text);">Sin pisos</div><div style="font-size:11px;color:var(--sub);">de volumen</div></div>
-            <div style="width:1px;background:hsl(43 100% 45%/.2);"></div>
-            <div style="text-align:center;flex:1;"><div style="font-size:13px;font-weight:800;color:var(--green-text);">Sin tarifas</div><div style="font-size:11px;color:var(--sub);">dinámicas ni hora pico</div></div>
-            <div style="width:1px;background:hsl(43 100% 45%/.2);"></div>
-            <div style="text-align:center;flex:1;"><div style="font-size:13px;font-weight:800;color:var(--green-text);">7–30 días</div><div style="font-size:11px;color:var(--sub);">plazo de pago negociable</div></div>
-          </div>
-        </div>
-        <div class="card-red" style="padding:14px 18px;">
-          <p style="font-size:11px;font-weight:700;color:var(--red);text-transform:uppercase;letter-spacing:.08em;margin-bottom:8px;">Implicación para Makro — pedido mínimo $150K COP</p>
-          <div class="row-list">
-            <div class="row-item"><div class="row-dot r"></div><span>Todos los pedidos de Makro superan el límite de $150K → con MU y ARMI <strong>siempre habría retorno</strong>, que se cobra como envío adicional.</span></div>
-            <div class="row-item"><div class="row-dot g"></div><span><strong>Solución:</strong> Picker funciona al 100% para pedidos <strong>pre-pagados</strong> (pago en línea o tarjeta). Para efectivo, Makro usa su proveedor actual.</span></div>
-            <div class="row-item"><div class="row-dot a"></div><span>El fondo del problema persiste con cualquier carrier: delivery a 10–12km cuesta más de $10K. Makro debe revisar el precio al cliente.</span></div>
-          </div>
-        </div>
+      <div class="card" style="padding:0;overflow:hidden;">
+        <div style="padding:10px 16px;border-bottom:1px solid var(--border);font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;">Ejemplo de costo total — PIBOX (tarifa más baja)</div>
+        <table class="tbl" style="font-size:12px;">
+          <thead><tr><th>Concepto</th><th>5 km (media)</th><th>10 km (promedio)</th></tr></thead>
+          <tbody>
+            <tr><td>Carrier PIBOX</td><td>$9,030</td><td>$15,330</td></tr>
+            <tr><td>Fee Picker + IVA</td><td>$1,666</td><td>$1,666</td></tr>
+            <tr class="total"><td>Total por envío</td><td>$10,696</td><td>$16,996</td></tr>
+            <tr><td style="color:var(--muted);font-size:11px;">+ Efectivo (si aplica)</td><td style="color:var(--muted);font-size:11px;">+3.5% s/ cobrado</td><td style="color:var(--muted);font-size:11px;">+3.5% s/ cobrado</td></tr>
+          </tbody>
+        </table>
       </div>
     </div>
   </div>
 </div>
 
-<!-- ═══════════════════ SLIDE 6 · PRÓXIMOS PASOS ═══════════════════ -->
+<!-- ═══════════════════ SLIDE 6 · MINUTA ═══════════════════ -->
 <div class="slide">
-  <div class="content" style="display:flex;flex-direction:column;gap:22px;">
+  <div class="content" style="display:flex;flex-direction:column;gap:20px;width:100%;">
     <div>
-      <div class="tag blue">Próximos pasos — acordados en llamada 2 jun</div>
-      <h2>Omar lleva la propuesta a dirección.<br/>Follow-up la próxima semana.</h2>
+      <div class="tag blue">Minuta — Reunión 2 de junio, 2026</div>
+      <h2 style="margin-bottom:4px;">Acuerdos y compromisos</h2>
+      <p class="sub" style="font-size:13px;">Acordados conjuntamente entre Picker y Makro Colombia al cierre de la presentación.</p>
     </div>
     <div class="grid2" style="gap:20px;align-items:start;">
-      <div style="display:flex;flex-direction:column;gap:12px;">
-        <div class="card-celeste">
-          <div style="font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--celeste);font-weight:800;margin-bottom:14px;">Timeline acordado</div>
-          <div style="display:flex;flex-direction:column;gap:12px;">
-            <div style="display:flex;gap:12px;align-items:flex-start;">
-              <div class="step-num">1</div>
-              <div><div style="font-weight:700;font-size:13px;">Hoy — 2 jun</div><div class="sub" style="font-size:12px;">Ricardo envía la propuesta. Omar la revisa con su equipo operativo.</div></div>
+
+      <!-- COLUMNA PICKER -->
+      <div class="card" style="padding:24px 26px;">
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:18px;">
+          <div style="width:36px;height:36px;border-radius:50%;background:var(--celeste-dim);border:1px solid var(--celeste-mid);display:flex;align-items:center;justify-content:center;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="hsl(193 100% 45%)" stroke-width="2.2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <div style="font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--celeste);">Compromisos Picker</div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:13px;">
+          <div style="display:flex;gap:10px;align-items:flex-start;">
+            <div style="width:20px;height:20px;border-radius:50%;background:var(--celeste-dim);border:1px solid var(--celeste-mid);display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;">
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="hsl(193 100% 45%)" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
             </div>
-            <div style="display:flex;gap:12px;align-items:flex-start;">
-              <div class="step-num">2</div>
-              <div><div style="font-weight:700;font-size:13px;">Esta semana o fin de semana</div><div class="sub" style="font-size:12px;">Omar saca el dato de volumen total estimado para las 16 tiendas (no lo tenía en la llamada).</div></div>
+            <div><div style="font-size:13px;font-weight:700;margin-bottom:2px;">Enviar esta propuesta hoy, 2 jun</div><div class="sub" style="font-size:12px;">Para que el equipo Makro la evalúe con la información de precios y alcance confirmados.</div></div>
+          </div>
+          <div style="display:flex;gap:10px;align-items:flex-start;">
+            <div style="width:20px;height:20px;border-radius:50%;background:var(--celeste-dim);border:1px solid var(--celeste-mid);display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;">
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="hsl(193 100% 45%)" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
             </div>
-            <div style="display:flex;gap:12px;align-items:flex-start;">
-              <div class="step-num">3</div>
-              <div><div style="font-weight:700;font-size:13px;">Lunes–martes 8–9 jun</div><div class="sub" style="font-size:12px;">Ricardo hace follow-up. Omar lleva la propuesta a la dirección para evaluación.</div></div>
+            <div><div style="font-size:13px;font-weight:700;margin-bottom:2px;">Plazo de pago: hasta 30 días</div><div class="sub" style="font-size:12px;">Picker puede flexibilizar el plazo estándar de 7 días hasta 30 días para acomodarse al ciclo de Makro.</div></div>
+          </div>
+          <div style="display:flex;gap:10px;align-items:flex-start;">
+            <div style="width:20px;height:20px;border-radius:50%;background:var(--celeste-dim);border:1px solid var(--celeste-mid);display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;">
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="hsl(193 100% 45%)" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
             </div>
-            <div style="display:flex;gap:12px;align-items:flex-start;">
-              <div class="step-num">4</div>
-              <div><div style="font-weight:700;font-size:13px;">Plazos de pago a negociar</div><div class="sub" style="font-size:12px;">Contrato estándar: 7 días. Picker puede dar hasta <strong>30 días</strong>. Makro trabaja a 45 días — punto a resolver con área de compras.</div></div>
+            <div><div style="font-size:13px;font-weight:700;margin-bottom:2px;">Account manager asignado desde el día 1</div><div class="sub" style="font-size:12px;">Punto de contacto dedicado para onboarding, conciliaciones y seguimiento operativo.</div></div>
+          </div>
+          <div style="display:flex;gap:10px;align-items:flex-start;">
+            <div style="width:20px;height:20px;border-radius:50%;background:var(--celeste-dim);border:1px solid var(--celeste-mid);display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;">
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="hsl(193 100% 45%)" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
             </div>
+            <div><div style="font-size:13px;font-weight:700;margin-bottom:2px;">Disponibles para resolver dudas técnicas</div><div class="sub" style="font-size:12px;">Integración API, dashboard de seguimiento y cualquier consulta del equipo operativo Makro.</div></div>
           </div>
         </div>
       </div>
-      <div style="display:flex;flex-direction:column;gap:14px;">
-        <div class="card-accent">
-          <div style="font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--green-text);font-weight:800;margin-bottom:12px;">Dónde Picker agrega valor — confirmado en llamada</div>
-          <div class="row-list">
-            <div class="row-item"><div class="row-dot g"></div><span><strong>6 proveedores vs 1 actual</strong> (solo Rappi hoy) → mejor tiempo de respuesta y redundancia si un carrier rechaza un pedido</span></div>
-            <div class="row-item"><div class="row-dot g"></div><span><strong>Pedidos pre-pagados</strong> (pago en línea/tarjeta): Picker los maneja al 100%, sin fricción de efectivo</span></div>
-            <div class="row-item"><div class="row-dot g"></div><span><strong>Expansión del canal</strong>: al activar las 16 tiendas con orquestación, Makro puede ampliar su oferta de delivery comercialmente</span></div>
-            <div class="row-item"><div class="row-dot g"></div><span><strong>Account manager</strong> incluido — revisión de rutas, conciliaciones y mejora continua</span></div>
+
+      <!-- COLUMNA MAKRO -->
+      <div class="card" style="padding:24px 26px;">
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:18px;">
+          <div style="width:36px;height:36px;border-radius:50%;background:var(--amber-bg);border:1px solid hsl(43 100% 45% / .3);display:flex;align-items:center;justify-content:center;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="hsl(43 100% 45%)" stroke-width="2.2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
           </div>
+          <div style="font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--amber);">Compromisos Makro</div>
         </div>
-        <div class="card-amber" style="padding:14px 18px;">
-          <div style="font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--amber);font-weight:700;margin-bottom:10px;">Pendiente crítico de Omar</div>
-          <div class="row-list">
-            <div class="row-item"><div class="row-dot a"></div><span>Volumen estimado total de las 16 tiendas (hoy solo 2 activas con ~300 pedidos/mes)</span></div>
-            <div class="row-item"><div class="row-dot a"></div><span>Confirmar si el área de compras acepta plazo de pago de 30 días</span></div>
-            <div class="row-item"><div class="row-dot a"></div><span>Definir qué % de sus pedidos son pre-pagados (candidatos directos para Picker)</span></div>
+        <div style="display:flex;flex-direction:column;gap:13px;">
+          <div style="display:flex;gap:10px;align-items:flex-start;">
+            <div style="width:20px;height:20px;border-radius:50%;background:var(--amber-bg);border:1px solid hsl(43 100% 45% / .3);display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;">
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="hsl(43 100% 45%)" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <div><div style="font-size:13px;font-weight:700;margin-bottom:2px;">Compartir la propuesta con dirección</div><div class="sub" style="font-size:12px;">Presentar el alcance y el modelo de costos al área directiva para avanzar en la evaluación formal.</div></div>
+          </div>
+          <div style="display:flex;gap:10px;align-items:flex-start;">
+            <div style="width:20px;height:20px;border-radius:50%;background:var(--amber-bg);border:1px solid hsl(43 100% 45% / .3);display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;">
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="hsl(43 100% 45%)" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <div><div style="font-size:13px;font-weight:700;margin-bottom:2px;">Confirmar volumen estimado — 16 tiendas</div><div class="sub" style="font-size:12px;">Proyectar el volumen total de envíos mensual para todas las tiendas (hoy solo 2 activas con ~300 pedidos/mes).</div></div>
+          </div>
+          <div style="display:flex;gap:10px;align-items:flex-start;">
+            <div style="width:20px;height:20px;border-radius:50%;background:var(--amber-bg);border:1px solid hsl(43 100% 45% / .3);display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;">
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="hsl(43 100% 45%)" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <div><div style="font-size:13px;font-weight:700;margin-bottom:2px;">Alinear plazo de pago con área de compras</div><div class="sub" style="font-size:12px;">Confirmar si 30 días es viable para alinear el ciclo de pagos Makro con las condiciones de Picker.</div></div>
+          </div>
+          <div style="display:flex;gap:10px;align-items:flex-start;">
+            <div style="width:20px;height:20px;border-radius:50%;background:var(--amber-bg);border:1px solid hsl(43 100% 45% / .3);display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;">
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="hsl(43 100% 45%)" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <div><div style="font-size:13px;font-weight:700;margin-bottom:2px;">Definir mix de pedidos pre-pagados vs. efectivo</div><div class="sub" style="font-size:12px;">Identificar qué porcentaje del volumen es pago en línea/tarjeta (candidatos directos para activar con Picker).</div></div>
           </div>
         </div>
       </div>
+
+    </div>
+    <!-- Footer timeline -->
+    <div style="background:var(--card);border:1px solid var(--border);border-radius:10px;padding:14px 22px;display:flex;align-items:center;gap:18px;">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--muted)" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+      <span style="font-size:12px;color:var(--sub);font-weight:600;">Seguimiento acordado: semana del <strong style="color:var(--text);">8–9 de junio</strong> — Omar lleva la propuesta a dirección y Picker hace follow-up.</span>
     </div>
   </div>
 </div>
